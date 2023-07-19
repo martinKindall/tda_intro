@@ -2,7 +2,7 @@ package org.walruscode.tda_intro.implementaciones;
 
 import org.walruscode.tda_intro.interfaces.Cola;
 
-public class ColaCircular<T> implements Cola<T> {
+public class  ColaCircular<T> implements Cola<T> {
 
     private T[] arreglo;
     private final int maxSize;

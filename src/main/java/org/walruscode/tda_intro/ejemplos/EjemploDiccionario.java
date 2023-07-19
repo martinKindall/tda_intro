@@ -16,7 +16,7 @@ public class EjemploDiccionario {
         System.out.println(gatos.leer("gato1"));
         System.out.println(gatos.leer("gato2"));
 
-        gatos.insertar("gato1", new Gato("Garfield y sus amigos", 5));
+        gatos.insertar("gato1", new Gato("Garfield y sus amigos", 6));
         System.out.println(gatos.leer("gato1"));
 
         gatos.borrar("gato2");

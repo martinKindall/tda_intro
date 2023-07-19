@@ -5,8 +5,9 @@ import org.walruscode.tda_intro.interfaces.Diccionario;
 
 public class TablaHash<K, V> implements Diccionario<K, V> {
 
-    static final int size = 19997;
-    static final int mult = 12582917;
+    private static final int size = 19997;
+    private static final int mult = 12582917;
+
     private final NodoB<K, V>[] datos;
 
     public TablaHash() {

@@ -1,8 +1,10 @@
 package org.walruscode.tda_intro.implementaciones;
 
 import org.walruscode.tda_intro.estructuras.Nodo;
+import org.walruscode.tda_intro.interfaces.Pila;
 
-public class PilaEnlazada<T> implements org.walruscode.tda_intro.interfaces.Pila<T> {
+
+public class PilaEnlazada<T> implements Pila<T> {
 
     private Nodo<T> tope;
     private int size;
